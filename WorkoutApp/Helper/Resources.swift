@@ -10,28 +10,44 @@ import UIKit
 
 enum Resources {
     enum Colors {
-        static var active = UIColor(hexString: "#437BFE")
-        static var inactive = UIColor(hexString: "#929DA5")
-        static var backround = UIColor(hexString: "#F8F9F9")
-        static var separator = UIColor(hexString: "#E8ECEF")
-        static var titleGray = UIColor(hexString: "#545C77")
+        static let active = UIColor(hexString: "#437BFE")
+        static let inactive = UIColor(hexString: "#929DA5")
+        static let backround = UIColor(hexString: "#F8F9F9")
+        static let separator = UIColor(hexString: "#E8ECEF")
+        static let titleGray = UIColor(hexString: "#545C77")
     }
     
     enum Strings {
         enum TabBar {
-            static var overview = "Overview"
-            static var session = "Session"
-            static var progress = "Progress"
-            static var settings = "Settings"
+            static let overview = "Overview"
+            static let session = "Session"
+            static let progress = "Progress"
+            static let settings = "Settings"
+        }
+        
+        enum NavBar {
+            static let session = "High Intencity Cardio"
+            static let progress = "Workout Progress"
+            static let settigns = "Settings"
+        }
+        
+        enum Session {
+            static let navBarLeft = "Pause"
+            static let navBarRight = "Finish"
+        }
+        
+        enum Progress {
+            static let navBarLeft = "Export"
+            static let navBarRight = "Details"
         }
     }
     
     enum Images {
         enum TabBar {
-            static var overview = UIImage(systemName: "house")
-            static var session = UIImage(systemName: "alarm")
-            static var progress = UIImage(systemName: "chart.bar")
-            static var settings = UIImage(systemName: "gearshape")
+            static let overview = UIImage(systemName: "house")
+            static let session = UIImage(systemName: "alarm")
+            static let progress = UIImage(systemName: "chart.bar")
+            static let settings = UIImage(systemName: "gearshape")
         }
     }
     

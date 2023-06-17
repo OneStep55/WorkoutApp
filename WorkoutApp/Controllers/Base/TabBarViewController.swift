@@ -39,9 +39,9 @@ class TabBarViewController: UITabBarController {
         let progressController = ProgressController()
         let settingsController = SettingsController()
         
-        sessionController.title = "High Intencity Cardio"
-        progressController.title = "Workout Progress"
-        settingsController.title = "Settings"
+        sessionController.title = Resources.Strings.NavBar.session
+        progressController.title = Resources.Strings.NavBar.progress
+        settingsController.title = Resources.Strings.NavBar.settigns
         
         let overviewNavController = NavBarController(rootViewController: overviewController)
         let sessionNavController = NavBarController(rootViewController: sessionController)

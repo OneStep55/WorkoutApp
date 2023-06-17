@@ -12,5 +12,13 @@ class SessionController: BaseController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        addNavBarButton(at: .left, title: Resources.Strings.Session.navBarLeft)
+        addNavBarButton(at: .right, title: Resources.Strings.Session.navBarRight)
+        
+    }
+    
+    override func navBarLeftButtonHandler() {
+        print("Session navbar left button tapped")
     }
 }
