@@ -17,6 +17,7 @@
 		4D4ECCDA2A2FA5DE0001BF64 /* UIColor + ext .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ECCD92A2FA5DE0001BF64 /* UIColor + ext .swift */; };
 		4D4ECCDC2A2FABAA0001BF64 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ECCDB2A2FABAA0001BF64 /* Resources.swift */; };
 		4D4ECCDE2A2FAD130001BF64 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ECCDD2A2FAD130001BF64 /* TabBarViewController.swift */; };
+		4D4F13BB2A424E1200D57695 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F13BA2A424E1200D57695 /* BaseView.swift */; };
 		4DA866DC2A379A32006E88F3 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866DB2A379A32006E88F3 /* NavBarController.swift */; };
 		4DA866DF2A379D18006E88F3 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866DE2A379D18006E88F3 /* BaseController.swift */; };
 		4DA866E12A379E6F006E88F3 /* OverviewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866E02A379E6F006E88F3 /* OverviewConroller.swift */; };
@@ -24,6 +25,7 @@
 		4DA866EA2A37A346006E88F3 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866E92A37A346006E88F3 /* SessionController.swift */; };
 		4DA866EC2A37A357006E88F3 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866EB2A37A357006E88F3 /* ProgressController.swift */; };
 		4DA866EE2A37A361006E88F3 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866ED2A37A361006E88F3 /* SettingsController.swift */; };
+		4DF64F2C2A3E499B00DF1658 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF64F2B2A3E499B00DF1658 /* SecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,7 @@
 		4D4ECCD92A2FA5DE0001BF64 /* UIColor + ext .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext .swift"; sourceTree = "<group>"; };
 		4D4ECCDB2A2FABAA0001BF64 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		4D4ECCDD2A2FAD130001BF64 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4D4F13BA2A424E1200D57695 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		4DA866DB2A379A32006E88F3 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		4DA866DE2A379D18006E88F3 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		4DA866E02A379E6F006E88F3 /* OverviewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewConroller.swift; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		4DA866E92A37A346006E88F3 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		4DA866EB2A37A357006E88F3 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		4DA866ED2A37A361006E88F3 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		4DF64F2B2A3E499B00DF1658 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,7 @@
 				4D4ECCDD2A2FAD130001BF64 /* TabBarViewController.swift */,
 				4DA866DB2A379A32006E88F3 /* NavBarController.swift */,
 				4DA866DE2A379D18006E88F3 /* BaseController.swift */,
+				4D4F13BA2A424E1200D57695 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 		4DA866E52A37A2DE006E88F3 /* Overvew */ = {
 			isa = PBXGroup;
 			children = (
+				4DF64F2A2A3E496900DF1658 /* Views */,
 				4DA866E02A379E6F006E88F3 /* OverviewConroller.swift */,
 			);
 			path = Overvew;
@@ -229,6 +235,14 @@
 				4DA866ED2A37A361006E88F3 /* SettingsController.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		4DF64F2A2A3E496900DF1658 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DF64F2B2A3E499B00DF1658 /* SecondaryButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,10 +381,12 @@
 				4DA866E12A379E6F006E88F3 /* OverviewConroller.swift in Sources */,
 				4D4ECCA62A2FA1140001BF64 /* AppDelegate.swift in Sources */,
 				4DA866EA2A37A346006E88F3 /* SessionController.swift in Sources */,
+				4DF64F2C2A3E499B00DF1658 /* SecondaryButton.swift in Sources */,
 				4DA866EC2A37A357006E88F3 /* ProgressController.swift in Sources */,
 				4DA866DF2A379D18006E88F3 /* BaseController.swift in Sources */,
 				4DA866DC2A379A32006E88F3 /* NavBarController.swift in Sources */,
 				4D4ECCDC2A2FABAA0001BF64 /* Resources.swift in Sources */,
+				4D4F13BB2A424E1200D57695 /* BaseView.swift in Sources */,
 				4D4ECCDE2A2FAD130001BF64 /* TabBarViewController.swift in Sources */,
 				4D4ECCA82A2FA1140001BF64 /* SceneDelegate.swift in Sources */,
 			);
