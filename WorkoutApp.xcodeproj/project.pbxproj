@@ -18,6 +18,7 @@
 		4D4ECCDC2A2FABAA0001BF64 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ECCDB2A2FABAA0001BF64 /* Resources.swift */; };
 		4D4ECCDE2A2FAD130001BF64 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ECCDD2A2FAD130001BF64 /* TabBarViewController.swift */; };
 		4D4F13BB2A424E1200D57695 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F13BA2A424E1200D57695 /* BaseView.swift */; };
+		4D4F13BD2A424F3800D57695 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F13BC2A424F3800D57695 /* OverviewNavBar.swift */; };
 		4DA866DC2A379A32006E88F3 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866DB2A379A32006E88F3 /* NavBarController.swift */; };
 		4DA866DF2A379D18006E88F3 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866DE2A379D18006E88F3 /* BaseController.swift */; };
 		4DA866E12A379E6F006E88F3 /* OverviewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866E02A379E6F006E88F3 /* OverviewConroller.swift */; };
@@ -61,6 +62,7 @@
 		4D4ECCDB2A2FABAA0001BF64 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		4D4ECCDD2A2FAD130001BF64 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		4D4F13BA2A424E1200D57695 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		4D4F13BC2A424F3800D57695 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		4DA866DB2A379A32006E88F3 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		4DA866DE2A379D18006E88F3 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		4DA866E02A379E6F006E88F3 /* OverviewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewConroller.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				4DF64F2B2A3E499B00DF1658 /* SecondaryButton.swift */,
+				4D4F13BC2A424F3800D57695 /* OverviewNavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				4D4F13BB2A424E1200D57695 /* BaseView.swift in Sources */,
 				4D4ECCDE2A2FAD130001BF64 /* TabBarViewController.swift in Sources */,
 				4D4ECCA82A2FA1140001BF64 /* SceneDelegate.swift in Sources */,
+				4D4F13BD2A424F3800D57695 /* OverviewNavBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

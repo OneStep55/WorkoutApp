@@ -14,7 +14,6 @@ class SecondaryButton: UIButton {
         label.textColor = Resources.Colors.active
         label.textAlignment = .center
         label.font = Resources.Fonts.helveticaRegular(with: 15)
-        label.translatesAutoresizingMaskIntoConstraints = false
         
         return label
     }()
@@ -23,7 +22,6 @@ class SecondaryButton: UIButton {
         let imageView = UIImageView()
         imageView.image = Resources.Images.Common.downArrow
         imageView.tintColor = Resources.Colors.active
-        imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
    
@@ -46,8 +44,8 @@ class SecondaryButton: UIButton {
 }
 private extension SecondaryButton {
     func addViews() {
-        addSubview(label)
-        addSubview(downArray)
+        addView(label)
+        addView(downArray)
     }
     
     func layoutViews() {

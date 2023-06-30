@@ -61,6 +61,10 @@ enum Resources {
         enum Common {
             static let downArrow = UIImage(systemName: "chevron.down")
         }
+        
+        enum Overview {
+            static let plus = UIImage(systemName: "plus")
+        }
     }
     
     enum Fonts {

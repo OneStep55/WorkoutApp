@@ -9,6 +9,12 @@ import UIKit
 
 
 extension UIView {
+    
+    func addView(_ view: UIView) {
+        addSubview(view)
+        view.translatesAutoresizingMaskIntoConstraints = false
+    }
+    
     func addBottomBorder(with color: UIColor, height: CGFloat) {
         let separator = UIView()
         separator.backgroundColor = color
