@@ -19,6 +19,7 @@
 		4D4ECCDE2A2FAD130001BF64 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4ECCDD2A2FAD130001BF64 /* TabBarViewController.swift */; };
 		4D4F13BB2A424E1200D57695 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F13BA2A424E1200D57695 /* BaseView.swift */; };
 		4D4F13BD2A424F3800D57695 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F13BC2A424F3800D57695 /* OverviewNavBar.swift */; };
+		4D9A125C2A8A6F9500A6D0F8 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9A125B2A8A6F9500A6D0F8 /* Date + ext.swift */; };
 		4DA866DC2A379A32006E88F3 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866DB2A379A32006E88F3 /* NavBarController.swift */; };
 		4DA866DF2A379D18006E88F3 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866DE2A379D18006E88F3 /* BaseController.swift */; };
 		4DA866E12A379E6F006E88F3 /* OverviewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866E02A379E6F006E88F3 /* OverviewConroller.swift */; };
@@ -26,6 +27,8 @@
 		4DA866EA2A37A346006E88F3 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866E92A37A346006E88F3 /* SessionController.swift */; };
 		4DA866EC2A37A357006E88F3 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866EB2A37A357006E88F3 /* ProgressController.swift */; };
 		4DA866EE2A37A361006E88F3 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA866ED2A37A361006E88F3 /* SettingsController.swift */; };
+		4DA9D35A2A8809240088991D /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9D3592A8809240088991D /* WeekView.swift */; };
+		4DA9D35C2A880B430088991D /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA9D35B2A880B430088991D /* WeekdayView.swift */; };
 		4DF64F2C2A3E499B00DF1658 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF64F2B2A3E499B00DF1658 /* SecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,7 @@
 		4D4ECCDD2A2FAD130001BF64 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		4D4F13BA2A424E1200D57695 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		4D4F13BC2A424F3800D57695 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		4D9A125B2A8A6F9500A6D0F8 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 		4DA866DB2A379A32006E88F3 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		4DA866DE2A379D18006E88F3 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		4DA866E02A379E6F006E88F3 /* OverviewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewConroller.swift; sourceTree = "<group>"; };
@@ -70,6 +74,8 @@
 		4DA866E92A37A346006E88F3 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		4DA866EB2A37A357006E88F3 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		4DA866ED2A37A361006E88F3 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		4DA9D3592A8809240088991D /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		4DA9D35B2A880B430088991D /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		4DF64F2B2A3E499B00DF1658 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +185,7 @@
 			children = (
 				4D4ECCD92A2FA5DE0001BF64 /* UIColor + ext .swift */,
 				4DA866E22A37A059006E88F3 /* UIView + ext.swift */,
+				4D9A125B2A8A6F9500A6D0F8 /* Date + ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -239,9 +246,19 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		4DA9D3582A88090A0088991D /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				4DA9D3592A8809240088991D /* WeekView.swift */,
+				4DA9D35B2A880B430088991D /* WeekdayView.swift */,
+			);
+			path = WeekView;
+			sourceTree = "<group>";
+		};
 		4DF64F2A2A3E496900DF1658 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4DA9D3582A88090A0088991D /* WeekView */,
 				4DF64F2B2A3E499B00DF1658 /* SecondaryButton.swift */,
 				4D4F13BC2A424F3800D57695 /* OverviewNavBar.swift */,
 			);
@@ -378,6 +395,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA9D35A2A8809240088991D /* WeekView.swift in Sources */,
+				4D9A125C2A8A6F9500A6D0F8 /* Date + ext.swift in Sources */,
 				4DA866EE2A37A361006E88F3 /* SettingsController.swift in Sources */,
 				4D4ECCDA2A2FA5DE0001BF64 /* UIColor + ext .swift in Sources */,
 				4DA866E32A37A059006E88F3 /* UIView + ext.swift in Sources */,
@@ -391,6 +410,7 @@
 				4D4ECCDC2A2FABAA0001BF64 /* Resources.swift in Sources */,
 				4D4F13BB2A424E1200D57695 /* BaseView.swift in Sources */,
 				4D4ECCDE2A2FAD130001BF64 /* TabBarViewController.swift in Sources */,
+				4DA9D35C2A880B430088991D /* WeekdayView.swift in Sources */,
 				4D4ECCA82A2FA1140001BF64 /* SceneDelegate.swift in Sources */,
 				4D4F13BD2A424F3800D57695 /* OverviewNavBar.swift in Sources */,
 			);

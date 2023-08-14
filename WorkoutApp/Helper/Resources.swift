@@ -10,7 +10,8 @@ import UIKit
 
 enum Resources {
     enum Colors {
-        static let active = UIColor(hexString: "#437BFE")
+//        static let active = UIColor(hexString: "#437BFE")
+        static let active = UIColor.systemTeal
         static let inactive = UIColor(hexString: "#929DA5")
         
         static let backround = UIColor(hexString: "#F8F9F9")
